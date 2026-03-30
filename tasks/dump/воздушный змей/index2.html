@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Воздушный змей</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #e6f7ff;
+    }
+
+    .kite {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        transform: rotate(45deg);
+    }
+
+    .square {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+    }
+
+    .center { background: red; top: 40px; left: 40px; }
+    .top { background: blue; top: 0; left: 40px; }
+    .bottom { background: green; top: 80px; left: 40px; }
+    .left { background: yellow; top: 40px; left: 0; }
+    .right { background: purple; top: 40px; left: 80px; }
+</style>
+</head>
+<body>
+
+<div class="kite">
+    <div class="square center"></div>
+    <div class="square top"></div>
+    <div class="square bottom"></div>
+    <div class="square left"></div>
+    <div class="square right"></div>
+</div>
+
+</body>
+</html>

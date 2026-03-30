@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тест по HTML</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Тест по HTML (1 уровень)</h1>
+
+    <div id="quiz"></div>
+
+    <button id="nextBtn">Далее</button>
+
+    <div id="result" class="hidden"></div>
+</div>
+
+<script>
+    const quizData = [
+    {
+        question: "Что такое HTML?",
+        answers: ["Фильм", "Язык для создания страницы сайта", "Игра"],
+        correct: 1
+    },
+    {
+        question: "Что такое тег в HTML?",
+        answers: ["Картинка", "Специальная команда", "Цвет"],
+        correct: 1
+    },
+    {
+        question: "Где пишется тег?",
+        answers: ["В круглых скобках ()", "В угловых скобках <>", "В кавычках"],
+        correct: 1
+    },
+    {
+        question: "Для чего используется тег &lt;div&gt;?",
+        answers: ["Для музыки", "Для создания разных блоков и фигур", "Для видео"],
+        correct: 1
+    },
+    {
+        question: "Из чего состоит тег &lt;div&gt;?",
+        answers: ["Из слова", "Из открывающей и закрывающей части", "Из числа"],
+        correct: 1
+    },
+    {
+        question: "Как выглядит закрывающий тег?",
+        answers: ["&lt;div&gt;", "&lt;/div&gt;", "&lt;div/&gt;"],
+        correct: 1
+    },
+    {
+        question: "Что такое атрибут?",
+        answers: ["Ошибка", "Помощник тега", "Заголовок"],
+        correct: 1
+    },
+    {
+        question: "Где пишется атрибут?",
+        answers: ["Внутри тега", "После страницы", "Внизу сайта"],
+        correct: 0
+    },
+    {
+        question: "Что делает атрибут class?",
+        answers: ["Добавляет звук", "Задает название тегу", "Удаляет тег"],
+        correct: 1
+    }
+];
+</script>
+<script src="../program.js"></script>
+</body>
+</html>

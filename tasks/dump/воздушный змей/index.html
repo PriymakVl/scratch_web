@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Воздушный змей</title>
+<style>
+    body {
+        background: #e6f7ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .kite {
+        display: grid;
+        grid-template-columns: repeat(5, 40px);
+        grid-template-rows: repeat(5, 40px);
+        gap: 4px;
+        transform: rotate(45deg);
+    }
+
+    .cell {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Цвета */
+    .red { background: red; }
+    .blue { background: blue; }
+    .yellow { background: yellow; }
+    .green { background: green; }
+
+    /* Прячем лишние клетки */
+    .empty {
+        background: transparent;
+    }
+
+    /* Хвост */
+    .tail {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tail div {
+        width: 20px;
+        height: 20px;
+        margin: 5px 0;
+        transform: rotate(45deg);
+    }
+</style>
+</head>
+<body>
+
+<div>
+    <div class="kite">
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="red cell"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+
+        <div class="empty"></div>
+        <div class="blue cell"></div>
+        <div class="yellow cell"></div>
+        <div class="green cell"></div>
+        <div class="empty"></div>
+
+        <div class="red cell"></div>
+        <div class="yellow cell"></div>
+        <div class="blue cell"></div>
+        <div class="yellow cell"></div>
+        <div class="green cell"></div>
+
+        <div class="empty"></div>
+        <div class="green cell"></div>
+        <div class="yellow cell"></div>
+        <div class="blue cell"></div>
+        <div class="empty"></div>
+
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="red cell"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+    </div>
+
+    <div class="tail">
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="yellow"></div>
+        <div class="green"></div>
+    </div>
+</div>
+
+</body>
+</html>

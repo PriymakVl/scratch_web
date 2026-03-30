@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.question {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.correct {
+    background-color: #c8f7c5;
+}
+
+.wrong {
+    background-color: #f7c5c5;
+}
