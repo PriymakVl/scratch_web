@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тест по CSS</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Тест по CSS (2 уровень)</h1>
+
+    <div id="quiz"></div>
+
+    <button id="nextBtn">Далее</button>
+
+    <div id="result" class="hidden"></div>
+</div>
+
+<script>
+const quizData = [
+    {
+        question: "Что делает свойство border?",
+        answers: ["Добавляет рамку", "Меняет текст", "Делает картинку"],
+        correct: 0
+    },
+    {
+        question: "Что такое padding?",
+        answers: ["Внешний отступ", "Отступ внутри блока", "Цвет текста"],
+        correct: 1
+    },
+    {
+        question: "Где находится padding?",
+        answers: ["Снаружи блока", "Внутри блока", "Под страницей"],
+        correct: 1
+    },
+    {
+        question: "Как сделать рамку толще?",
+        answers: ["border-width", "padding", "color"],
+        correct: 0
+    },
+    {
+        question: "Что делает border-color?",
+        answers: ["Меняет цвет рамки", "Меняет размер", "Удаляет рамку"],
+        correct: 0
+    },
+    {
+        question: "Что будет, если увеличить padding?",
+        answers: ["Текст прижмется", "Появится больше места внутри", "Блок исчезнет"],
+        correct: 1
+    },
+    {
+        question: "Где находится border?",
+        answers: ["Внутри текста", "Вокруг блока", "Под картинкой"],
+        correct: 1
+    },
+    {
+        question: "Можно ли сделать рамку пунктирной?",
+        answers: ["Да", "Нет", "Только в HTML"],
+        correct: 0
+    }
+];
+
+</script>
+<script src="../program.js"></script>
+</body>
+</html>

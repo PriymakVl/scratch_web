@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	border: 2px solid black;
+	background-color: #040e16;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 120px;
+	height: 240px;
+	border-radius: 5px;
+	transition: all 1s;
+}
+
+.circle {
+	position: absolute;
+	border: 2px solid black;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	transition: all 1s;
+}
+
+.one {
+	top: 10px;
+	right: 10px;
+}
+
+.two {
+	top: 50px;
+	left: 50px;
+}
+
+.three {
+	top: 85px;
+	left: 10px;
+}
+
+.medio {
+	position: absolute;
+	width: 110px;
+	height: 10px;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 1s;
+}
+
+.four {
+	bottom: 10px;
+	left: 10px;
+}
+
+.five {
+	bottom: 50px;
+	left: 50px;
+}
+
+.six {
+	bottom: 80px;
+	right: 10px;
+}
