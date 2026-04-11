@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тест з HTML (1 рівень)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Тест з HTML (1 рівень)</h1>
+
+    <div id="quiz"></div>
+
+    <button id="nextBtn">Далі</button>
+
+    <div id="result" class="hidden"></div>
+</div>
+
+<script>
+    const quizData = [
+    {
+        question: "Що таке HTML?",
+        answers: ["Фільм", "Мова для створення сторінки сайту", "Гра"],
+        correct: 1
+    },
+    {
+        question: "Що таке тег в HTML?",
+        answers: ["Картинка", "Спеціальна команда", "Колір"],
+        correct: 1
+    },
+    {
+        question: "Де пишеться тег?",
+        answers: ["У круглих дужках ()", "У кутових дужках <>", "У лапках"],
+        correct: 1
+    },
+    {
+        question: "Для чого використовується тег <div>?",
+        answers: ["Для музики", "Для створення різних блоків і фігур", "Для відео"],
+        correct: 1
+    },
+    {
+        question: "З чого складається тег <div>?",
+        answers: ["Зі слова", "З відкривальної та закривальної частини", "З числа"],
+        correct: 1
+    },
+    {
+        question: "Як виглядає закривальний тег?",
+        answers: ["<div>", "</div>", "<div/>"],
+        correct: 1
+    },
+    {
+        question: "Що таке атрибут?",
+        answers: ["Помилка", "Помічник тега", "Заголовок"],
+        correct: 1
+    },
+    {
+        question: "Де пишеться атрибут?",
+        answers: ["Всередині тега", "Після сторінки", "Внизу сайту"],
+        correct: 0
+    },
+    {
+        question: "Що робить атрибут class?",
+        answers: ["Додає звук", "Задає назву тегу", "Видаляє тег"],
+        correct: 1
+    }
+];
+
+</script>
+<script src="../program.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Test (Level 1)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>HTML Test (Level 1)</h1>
+
+    <div id="quiz"></div>
+
+    <button id="nextBtn">Next</button>
+
+    <div id="result" class="hidden"></div>
+</div>
+
+<script>
+    const quizData = [
+    {
+        question: "What is HTML?",
+        answers: ["A movie", "A language for creating web pages", "A game"],
+        correct: 1
+    },
+    {
+        question: "What is a tag in HTML?",
+        answers: ["An image", "A special command", "A color"],
+        correct: 1
+    },
+    {
+        question: "Where is a tag written?",
+        answers: ["In round brackets ()", "In angle brackets <>", "In quotes"],
+        correct: 1
+    },
+    {
+        question: "What is the <div> tag used for?",
+        answers: ["For music", "For creating different blocks and shapes", "For video"],
+        correct: 1
+    },
+    {
+        question: "What does the <div> tag consist of?",
+        answers: ["A word", "An opening and a closing part", "A number"],
+        correct: 1
+    },
+    {
+        question: "What does a closing tag look like?",
+        answers: ["<div>", "</div>", "<div/>"],
+        correct: 1
+    },
+    {
+        question: "What is an attribute?",
+        answers: ["An error", "A helper for a tag", "A heading"],
+        correct: 1
+    },
+    {
+        question: "Where is an attribute written?",
+        answers: ["Inside the tag", "After the page", "At the bottom of the site"],
+        correct: 0
+    },
+    {
+        question: "What does the class attribute do?",
+        answers: ["Adds sound", "Gives a name to a tag", "Deletes a tag"],
+        correct: 1
+    }
+];
+
+</script>
+<script src="../program.js"></script>
+</body>
+</html>
