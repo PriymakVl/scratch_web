@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тест по transition (ru)</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Тест по свойству Transition (3 уровень)</h1>
+
+    <div id="quiz"></div>
+
+    <button id="nextBtn">Далее</button>
+
+    <div id="result" class="hidden"></div>
+</div>
+
+<script>
+const quizData = [
+    {
+        question: "Что делает свойство transition?",
+        answers: ["Делает изменение стилей плавным", "Удаляет элемент", "Меняет цвет текста сразу"],
+        correct: 0
+    },
+    {
+        question: "Что произойдет без transition?",
+        answers: ["Изменения будут резкими", "Ничего не изменится", "Элемент исчезнет"],
+        correct: 0
+    },
+    {
+        question: "Где часто используют transition?",
+        answers: ["С :hover", "С html", "С body"],
+        correct: 0
+    },
+    {
+        question: "Что означает время в transition: 1s?",
+        answers: ["1 секунда", "1 минута", "1 миллисекунда"],
+        correct: 0
+    },
+    {
+        question: "Что изменится при наведении, если есть transition?",
+        answers: ["Изменение будет плавным", "Элемент удалится", "Ничего не произойдет"],
+        correct: 0
+    },
+    {
+        question: "Можно ли менять цвет с помощью transition?",
+        answers: ["Да", "Нет", "Только в JavaScript"],
+        correct: 0
+    },
+    {
+        question: "Что делает запись transition: all 0.5s?",
+        answers: ["Плавно меняет все свойства за 0.5 секунды", "Меняет только цвет", "Удаляет элемент"],
+        correct: 0
+    },
+    {
+        question: "Что нужно добавить, чтобы transition сработал?",
+        answers: ["Изменение свойства (например, через :hover)", "Ничего", "Только HTML"],
+        correct: 0
+    }
+];
+
+</script>
+<script src="../../program.js"></script>
+</body>
+</html>

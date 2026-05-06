@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тест по opacity (ru)</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Тест по свойству Opacity (3 уровень)</h1>
+
+    <div id="quiz"></div>
+
+    <button id="nextBtn">Далее</button>
+
+    <div id="result" class="hidden"></div>
+</div>
+
+<script>
+const quizData = [
+    {
+        question: "Что делает свойство opacity?",
+        answers: ["Меняет прозрачность элемента", "Удаляет элемент", "Двигает элемент"],
+        correct: 0
+    },
+    {
+        question: "Какое значение opacity делает элемент полностью невидимым?",
+        answers: ["1", "0", "50"],
+        correct: 1
+    },
+    {
+        question: "Какое значение opacity делает элемент полностью видимым?",
+        answers: ["0", "0.5", "1"],
+        correct: 2
+    },
+    {
+        question: "Что произойдет, если задать opacity: 0.5?",
+        answers: ["Элемент станет наполовину прозрачным", "Элемент исчезнет", "Элемент станет больше"],
+        correct: 0
+    },
+    {
+        question: "Какие значения можно использовать для opacity?",
+        answers: ["От 0 до 1", "От 1 до 100", "Только 0 или 1"],
+        correct: 0
+    },
+    {
+        question: "Можно ли использовать opacity вместе с :hover?",
+        answers: ["Нет", "Да", "Только в JavaScript"],
+        correct: 1
+    },
+    {
+        question: "Что произойдет при наведении, если в :hover изменить opacity?",
+        answers: ["Элемент изменит прозрачность", "Элемент исчезнет навсегда", "Ничего не изменится"],
+        correct: 0
+    },
+    {
+        question: "Как сделать плавное изменение прозрачности?",
+        answers: ["Использовать transition", "Использовать color", "Использовать margin"],
+        correct: 0
+    }
+];
+
+
+</script>
+<script src="../../program.js"></script>
+</body>
+</html>
