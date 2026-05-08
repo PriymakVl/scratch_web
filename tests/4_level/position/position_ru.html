@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тест по position (ru)</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Тест по свойству Position (3 уровень)</h1>
+
+    <div id="quiz"></div>
+
+    <button id="nextBtn">Далее</button>
+
+    <div id="result" class="hidden"></div>
+</div>
+
+<script>
+const quizData = [
+    {
+        question: "Что делает свойство position?",
+        answers: ["Меняет положение элемента", "Удаляет элемент", "Меняет цвет текста"],
+        correct: 0
+    },
+    {
+        question: "Какое значение position используется по умолчанию?",
+        answers: ["absolute", "fixed", "static"],
+        correct: 2
+    },
+    {
+        question: "Какое значение position позволяет двигать элемент относительно его обычного места?",
+        answers: ["relative", "sticky", "none"],
+        correct: 0
+    },
+    {
+        question: "Какое свойство помогает двигать элемент вправо?",
+        answers: ["color", "left", "font-size"],
+        correct: 1
+    },
+    {
+        question: "С какими свойствами часто работает position?",
+        answers: ["top, left, right, bottom", "color и background", "border и opacity"],
+        correct: 0
+    },
+    {
+        question: "Что делает top: 20px?",
+        answers: ["Двигает элемент вниз", "Меняет ширину", "Делает элемент прозрачным"],
+        correct: 0
+    },
+    {
+        question: "Что делает left: 30px?",
+        answers: ["Двигает элемент вправо", "Меняет высоту", "Удаляет элемент"],
+        correct: 0
+    },
+    {
+        question: "Какое значение position помогает разместить элемент поверх другого?",
+        answers: ["absolute", "static", "normal"],
+        correct: 0
+    }
+];
+
+
+</script>
+<script src="../../program.js"></script>
+</body>
+</html>
